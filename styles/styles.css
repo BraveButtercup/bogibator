@@ -15,7 +15,7 @@
 }
 /* Common styles */
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-right: 0.5rem;
 }
@@ -30,16 +30,18 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.1rem;
 }
 .nav_list_items > li {
-  padding: 0.5rem;
+  padding: 0.3rem;
+  text-align: center;
 }
 .nav_list_items > li a {
   text-decoration: none;
   font-size: 1rem;
   color: black;
   padding: 0.5rem;
+  font-weight: 600;
 }
 .nav_list_items > li a:hover {
   box-shadow: 1px 1px 3px black;
@@ -52,10 +54,15 @@ html {
   align-items: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0 1rem;
 }
-
+.fa-chevron-left {
+  font-size: 3rem;
+}
+.fa-chevron-right {
+  font-size: 3rem;
+}
 /* Page Divider after Header */
 .divider_one {
   width: 100%;
@@ -78,6 +85,7 @@ h1 {
 .about_me_heading {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about_me_photo {
@@ -136,6 +144,7 @@ h1 {
 .skills_heading {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -178,6 +187,7 @@ h1 {
 .works_heading {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 3rem;
 }
 .pf_container {
@@ -299,4 +309,5 @@ footer {
 
 footer p {
   text-align: center;
+  padding-bottom: 1.5rem;
 }

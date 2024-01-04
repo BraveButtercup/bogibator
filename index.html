@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bátor Boglarka's Portfolio Website</title>
+    <title>Boglárka Bátor's Portfolio Website</title>
     <!--Google Fonts Library-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +40,13 @@
       </nav>
       <!--Banner?-->
       <section class="banner">
-        <h1>< > Welcome! I'm Boglárka Bátor, Web-developer.< / ></h1>
+        <h1>
+          <i class="fa-solid fa-chevron-left"></i
+          ><i class="fa-solid fa-chevron-right"></i> Welcome! I'm Boglárka
+          Bátor, Web-developer.<i class="fa-solid fa-chevron-left"></i>/<i
+            class="fa-solid fa-chevron-right"
+          ></i>
+        </h1>
         <img src="./assets/coding-icon.png" alt="coding icon" />
       </section>
     </header>
@@ -203,16 +209,17 @@
         <form action="https://formspree.io/f/xdorjwpy" method="post">
           <div class="contact_item">
             <label
-              >Name:
-              <input type="text" placeholder="Name" />
+              >Name:*
+              <input type="text" placeholder="Name" required />
             </label>
             <label
-              >Email:
-              <input type="text" placeholder="E-mail" />
+              >Email:*
+              <input type="email" placeholder="E-mail" required />
             </label>
             <textarea
               name="Message"
-              placeholder="Write here your message"
+              placeholder="Write here your message*"
+              required
             ></textarea>
             <input type="submit" value="Send" />
           </div>
@@ -221,9 +228,15 @@
     </main>
     <footer>
       <div class="socials">
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/BraveButtercup" target="blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/bogibator112121" target="blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/bogi_bator/" target="blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
       </div>
       <p>&copy; 2024 Bátor Boglárka</p>
     </footer>
