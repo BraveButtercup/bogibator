@@ -59,9 +59,18 @@ h1 {
 }
 .fa-chevron-left {
   font-size: 3rem;
+  color: var(--pink);
 }
 .fa-chevron-right {
   font-size: 3rem;
+  color: var(--pink);
+}
+.name {
+  color: var(--yellow);
+  font-size: 3rem;
+}
+.sticky {
+  position: sticky;
 }
 /* Page Divider after Header */
 .divider_one {
@@ -110,17 +119,28 @@ h1 {
   text-align: center;
   margin: 1rem;
 }
-
+.sticky {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  z-index: 1;
+}
+.fa-arrow-up {
+  font-size: 1.5rem;
+  color: black;
+}
 .about_container_item a {
   text-decoration: none;
   color: black;
   background: var(--pink);
-  padding: 0.7rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
 }
 .about_container_item a:hover {
   box-shadow: 2px 2px 3px black;
 }
+
 /* Page Divider after Section 1 */
 .divider_three {
   width: 100%;
@@ -183,6 +203,7 @@ h1 {
 
 .works {
   background-color: var(--pink);
+  outline: 1px solid var(--pink);
 }
 .works_heading {
   display: flex;
