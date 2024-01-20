@@ -22,7 +22,13 @@ h2 {
 html {
   scroll-behavior: smooth;
 }
+body {
+  min-width: 400px;
+  overflow-x: hidden;
+}
+
 /* Header  */
+
 .nav_container {
   background-color: var(--pink);
 }
@@ -50,12 +56,18 @@ html {
   background-color: var(--blue);
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 h1 {
   font-size: 3rem;
-  margin: 0 1rem;
+  margin: 2rem;
+}
+.slash {
+  font-size: 3rem;
+  color: black;
+  font-weight: 900;
 }
 .fa-chevron-left {
   font-size: 3rem;
@@ -69,11 +81,14 @@ h1 {
   color: var(--yellow);
   font-size: 3rem;
 }
+
 .sticky {
   position: sticky;
 }
+
 /* Page Divider after Header */
 .divider_one {
+  margin-top: -1px;
   width: 100%;
   height: 115px;
   background-color: #1d96e6;
@@ -143,6 +158,7 @@ h1 {
 
 /* Page Divider after Section 1 */
 .divider_three {
+  margin-top: -1px;
   width: 100%;
   height: 115px;
   background-color: var(--yellow);
@@ -158,7 +174,6 @@ h1 {
 /* Skills Section - 2 */
 .skills {
   background-color: var(--blue);
-  outline: 1px solid var(--blue);
   padding-bottom: 3rem;
 }
 .skills_heading {
@@ -187,12 +202,14 @@ h1 {
 }
 /* Page Divider after Section 2 */
 .divider_five {
+  margin-top: -1px;
   background-color: var(--blue);
   width: 100%;
   height: 115px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 115px));
 }
 .divider_six {
+  margin-bottom: -1px;
   background-color: var(--pink);
   width: 100%;
   height: 115px;
@@ -203,7 +220,6 @@ h1 {
 
 .works {
   background-color: var(--pink);
-  outline: 1px solid var(--pink);
 }
 .works_heading {
   display: flex;
@@ -216,7 +232,6 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  outline: 1px solid var(--pink);
 }
 .pf_work {
   display: flex;
@@ -263,6 +278,7 @@ h1 {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 115px), 0 100%);
 }
 .divider_eight {
+  margin-bottom: -1px;
   width: 100%;
   height: 115px;
   background-color: var(--blue);
@@ -288,6 +304,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: -1px;
 }
 label,
 input {
