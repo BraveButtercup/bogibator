@@ -173,6 +173,7 @@ h1 {
 }
 /* Skills Section - 2 */
 .skills {
+  margin-top: -1px;
   background-color: var(--blue);
   padding-bottom: 3rem;
 }
