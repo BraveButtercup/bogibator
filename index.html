@@ -72,16 +72,30 @@
       </nav>
       <!--Navigation -->
       <nav class="nav_container">
-        <ul class="nav_list_items">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html#about">About me</a></li>
-          <li><a href="./index.html#skills">Skills</a></li>
-          <li><a href="./index.html#portfolio">Portfolio</a></li>
-          <li><a href="./index.html#contact">Contact</a></li>
+        <ul
+          class="nav_list_items d-flex align-items-center justify-content-center"
+        >
+          <li class="nav_list_items_li">
+            <a href="./index.html" class="nav_list_a">Home</a>
+          </li>
+          <li class="nav_list_items_li">
+            <a href="./index.html#about" class="nav_list_a">About me</a>
+          </li>
+          <li class="nav_list_items_li">
+            <a href="./index.html#skills" class="nav_list_a">Skills</a>
+          </li>
+          <li class="nav_list_items_li">
+            <a href="./index.html#portfolio" class="nav_list_a">Portfolio</a>
+          </li>
+          <li class="nav_list_items_li">
+            <a href="./index.html#contact" class="nav_list_a">Contact</a>
+          </li>
         </ul>
       </nav>
       <!--Banner?-->
-      <section class="banner">
+      <section
+        class="banner d-flex flex-column justify-content-center align-items-center"
+      >
         <img
           class="icon_code"
           src="./assets/icon_code.png"
@@ -105,17 +119,21 @@
       <div class="divider_two"></div>
       <!--About me Section-->
       <section class="about" id="about">
-        <div class="about_me_heading">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
           <h2>About me</h2>
           <img src="./assets/flower.png" alt="flower icon" />
         </div>
-        <div class="about_container">
+        <div class="d-flex flex-column align-items-center">
           <img
             class="about_me_photo"
             src="./assets/photoof.png"
             alt="a photo of boglarka bator"
           />
-          <div class="about_container_item">
+          <div
+            class="about_container_item d-flex flex-column align-items-center"
+          >
             <p>I'm a self-taught web-developer, who loves challanges.</p>
             <p>
               My journey into the
@@ -140,7 +158,10 @@
 
               too.
             </p>
-            <a href="./index.html#contact">Get in touch!</a>
+            <a href="./index.html#contact" class="about_container_link"
+              >Get in touch!</a
+            >
+            <a href="#" class="about_container_link">Download CV</a>
           </div>
         </div>
         <div class="sticky">
@@ -152,26 +173,32 @@
       <div class="divider_four"></div>
       <!--Skills Section-->
       <section class="skills" id="skills">
-        <div class="skills_heading">
+        <div
+          class="skills_heading d-flex flex-column justify-content-center align-items-center"
+        >
           <h2>My skills</h2>
           <img src="./assets/pencil.png" alt="pencil icon" />
         </div>
-        <div class="tools">
-          <div class="tool_box ai">
+        <div class="tools flex-wrap align-items-center justify-content-around">
+          <div class="tool_box ai d-flex flex-column align-items-center">
             <img src="./assets/ai.png" alt="AI icon" />
             <p>AI</p>
           </div>
-          <div class="tool_box html">
+          <div class="tool_box github d-flex flex-column align-items-center">
+            <img src="./assets/github-zeichen.png" alt="Github icon" />
+            <p>Github</p>
+          </div>
+          <div class="tool_box html d-flex flex-column align-items-center">
             <img src="./assets/html.png" alt="HTML icon" />
             <p>HTML5</p>
           </div>
-          <div class="tool_box css">
+          <div class="tool_box css d-flex flex-column align-items-center">
             <img src="./assets/css-3.png" alt="CSS icon" />
             <p>CSS3</p>
           </div>
-          <div class="tool_box github">
-            <img src="./assets/github-zeichen.png" alt="Github icon" />
-            <p>Github</p>
+          <div class="tool_box js-logo d-flex flex-column align-items-center">
+            <img src="./assets/js_logo.png" alt="AI icon" />
+            <p>Javascript</p>
           </div>
         </div>
       </section>
@@ -179,25 +206,47 @@
       <div class="divider_five"></div>
       <div class="divider_six"></div>
       <!--Portfolio Section-->
-      <section class="works" id="portfolio">
-        <div class="works_heading">
+      <section class="work" id="portfolio">
+        <div
+          class="work_heading d-flex flex-column justify-content-center align-items-center"
+        >
           <h2>My work</h2>
           <img src="./assets/checklist.png" alt="checklist icon" />
         </div>
-        <div class="pf_container">
-          <div class="pf_work">
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <div class="pf_work d-flex flex-column align-items-center">
             <img
               src="./assets/pk_work.png"
               alt="portfolio work one"
               class="pf_image"
             />
             <h3>Plant Shop</h3>
-            <p>A website for shopping plants and accessories.</p>
-            <div class="pf_tools_icons">
-              <img src="./assets/html.png" alt="HTML icon" />
-              <img src="./assets/css-3.png" alt="CSS3 icon" />
+            <p class="pf_work_para">
+              A website for shopping plants and accessories.
+            </p>
+            <div class="pf_tools_icons d-flex flex-wrap">
+              <div
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <img
+                  src="./assets/html.png"
+                  alt="HTML icon"
+                  class="pf_tool_img"
+                />
+                <p>Html5</p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <img
+                  src="./assets/css-3.png"
+                  alt="CSS3 icon"
+                  class="pf_tool_img"
+                />
+                <p>CSS3</p>
+              </div>
             </div>
-            <a href="#">View Github Repo</a>
+            <a href="#" class="pf_button">View Github Repo</a>
           </div>
         </div>
       </section>
@@ -206,12 +255,14 @@
       <div class="divider_eight"></div>
       <!--Contact-->
       <div class="contact" id="contact">
-        <div class="contact_heading">
-          <h3>Send me a message</h3>
+        <div
+          class="contact_heading_container d-flex flex-column justify-content-center align-items-center"
+        >
+          <h3 class="contact_heading">Send me a message</h3>
           <img src="./assets/email.png" alt="e-mail icon" />
         </div>
         <form action="https://formspree.io/f/xdorjwpy" method="post">
-          <div class="contact_item">
+          <div class="contact_item d-flex flex-column align-items-center">
             <label
               >Name:*
               <input type="text" placeholder="Name" required />
